@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .card {
+    border-radius: theme("borderRadius.sm");
+    border-color: rgb(219, 225, 229);
+    @apply w-fit bg-gray-50  border  cursor-pointer hover:shadow-xl hover:bg-white select-none hover:scale-105 shadow-black duration-500;
+  }
+  .card img {
+    @apply object-cover;
+  }
+  .card .body {
+    @apply py-3 px-8;
+  }
+  .card .subtitle {
+    @apply text-xs my-5  text-gray-500;
+  }
+  .card .title {
+    @apply font-bold text-sm text-[#0a0a0a];
+  }
+  .card .footer {
+    border-color: rgb(219, 225, 229);
+    @apply border-t-2;
+  }
+}
+@layer components {
+  .outline-style {
+    @apply w-fit px-5 py-2 bg-secondary text-white rounded-md text-sm shadow-xl  border-2;
+  }
+  .outline-style.outlineHove {
+    @apply bg-transparent text-secondary ease-in-out border-secondary;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: theme("backgroundColor.secondary");
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+/* @apply w-fit px-5 py-2 bg-secondary text-white rounded-md text-sm shadow-xl  border-2; */
+@layer components {
+  .lang-ar {
+    direction: rtl;
+  }
+}
