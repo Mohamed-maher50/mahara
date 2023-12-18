@@ -32,7 +32,7 @@ const HomeSwiper = () => {
       <SwiperSlide>
         <div className="relative  overflow-hidden min-h-[100vh]">
           <img
-            src="/images/Escwa-banner01.jpg"
+            src="./images/Escwa-banner01.jpg"
             className=" h-screen w-screen object-cover "
             alt="sdf"
           />
@@ -53,7 +53,7 @@ const HomeSwiper = () => {
       <SwiperSlide>
         <div className="relative overflow-hidden min-h-[100vh]">
           <img
-            src="/images/Home-new-banner-.jpg"
+            src="./images/Home-new-banner-.jpg"
             className=" h-screen w-screen object-cover "
             alt="sdf"
           />

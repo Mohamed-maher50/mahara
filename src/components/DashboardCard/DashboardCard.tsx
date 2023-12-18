@@ -21,7 +21,7 @@ const DashboardCard: React.FC<DashboardCardSchema> = ({
   return (
     <div className="card grid grid-cols-1 md:grid-cols-4 p-4  w-full group hover:scale-100 bg-gray-100">
       <div className="relative  flex w-full items-center">
-        <img src={imgUrl} className="w-full" alt="block chain" />
+        <img src={"./" + imgUrl} className="w-full" alt="block chain" />
         <div className="layout flex   justify-center items-center  ease-in-out duration-500  scale-0 group-hover:scale-100 absolute w-full h-full bg-[rgba(0,0,0,0.7)] ">
           <Link
             to=""

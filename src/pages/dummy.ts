@@ -7,7 +7,7 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/bc-ar.png",
+    imgUrl: "./images/courses/bc-ar.png",
   },
   {
     id: "121",
@@ -15,7 +15,7 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/swt-ar.png",
+    imgUrl: "./images/courses/swt-ar.png",
   },
   {
     id: "321",
@@ -23,7 +23,7 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/freelancing-ar.png",
+    imgUrl: "./images/courses/freelancing-ar.png",
   },
   {
     id: "333",
@@ -31,7 +31,7 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/elearning-ar.png",
+    imgUrl: "./images/courses/elearning-ar.png",
   },
   {
     id: "322",
@@ -39,7 +39,7 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/ai-en.png",
+    imgUrl: "./images/courses/ai-en.png",
   },
   {
     id: "5645",
@@ -47,7 +47,7 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/ic-ar.png",
+    imgUrl: "./images/courses/ic-ar.png",
   },
   {
     id: "56325",
@@ -55,7 +55,7 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/mobile-ar.png",
+    imgUrl: "./images/courses/mobile-ar.png",
   },
   {
     id: "32432",
@@ -63,7 +63,7 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/iot-ar.png",
+    imgUrl: "./images/courses/iot-ar.png",
   },
   {
     id: "323432",
@@ -71,7 +71,7 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/cyber-ar.png",
+    imgUrl: "./images/courses/cyber-ar.png",
   },
   {
     id: "22442",
@@ -79,12 +79,12 @@ export const data: CardSchema[] = [
     price: 20,
     discount: 20,
     courseCount: 3,
-    imgUrl: "/images/courses/frontend-ar.png",
+    imgUrl: "./images/courses/frontend-ar.png",
   },
 ];
 export const MainCardInit = {
   id: "234",
-  imgUrl: "/images/topic/BlockChain developer.png",
+  imgUrl: "./images/topic/BlockChain developer.png",
   title: "softWare",
   studentsNumber: 200,
   UpdatedDate: "Updated 8/07/21",

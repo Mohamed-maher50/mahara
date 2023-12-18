@@ -18,7 +18,7 @@ const Comment: React.FC<CommentsProps> = ({
       className="flex border-b-2 last:border-none pb-2 gap-3 h-fit"
       dir={dir}
     >
-      <img src={UserImg} className="w-10 h-10" alt="" />
+      <img src={"./" + UserImg} className="w-10 h-10" alt="" />
       <div className="text-gray-500 text-sm">
         <h1 className="text-black font-semibold">{name}</h1>
         <span>{date}</span>

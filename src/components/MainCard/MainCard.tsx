@@ -23,7 +23,7 @@ const MainCard: React.FC<TMainCard> = ({
 }) => {
   return (
     <div className="card mx-auto" key={id} onClick={() => handler(id)}>
-      <img src={imgUrl} alt={title} />
+      <img src={"./" + imgUrl} alt={title} />
       <div className="body mb-8">
         <span className="subtitle">{UpdatedDate}</span>
         <h2 className="title">{title}</h2>

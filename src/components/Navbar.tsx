@@ -106,7 +106,7 @@ const Navbar: React.FC<Props> = ({ MenuButtonRef }) => {
               <div className="  text-white rounded-full w-12 object-cover cursor-pointer group overflow-hidden">
                 <img
                   id="DropDown1"
-                  src="https://mohamed-maher50.github.io/mahara/images/f1.jpg"
+                  src="./images/f1.jpg"
                   className="duration-300 group-hover:scale-125"
                 />
               </div>

@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <div className="grid grid-cols-2 md:grid-cols-3 gap-y-7 container mx-auto">
         <div>
-          <img src="/images/Footer Logos.png (2).png" />
+          <img src="./images/Footer Logos.png (2).png" />
           <h2 className="text-white text-lg">MAHARA-TECH</h2>
         </div>
         <div className="flex items-center justify-center">

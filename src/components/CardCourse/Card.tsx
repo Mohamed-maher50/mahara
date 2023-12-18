@@ -14,7 +14,7 @@ interface Props {
 const Card: FC<Props> = ({ data }) => {
   return (
     <div className="mx-auto" key={data.id}>
-      <img src={"https://mohamed-maher50.github.io/mahara/" + data.imgUrl} />
+      <img src={"./" + data.imgUrl} />
     </div>
   );
 };
